@@ -1,0 +1,126 @@
+@font-face {
+    font-family: 'Android';
+    src: url('./pacote-projeto-d010/fontes/idroid.otf') format('opentype');
+}
+
+
+body{
+    background-color: #84E1AD;
+    font-family: 'Android', times, serif;
+    margin: 0;
+    text-transform: bolder;
+}
+
+header{
+    background: linear-gradient(to bottom, #84E1AD, #36C174, #1F6D41, #1A5C38  );
+    margin: 0px;
+}
+
+header > h1, .header-content{
+    text-align: center;
+    padding: 5px;
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-indent: 20px;
+    padding: 0px 20px;
+    text-transform: bolder;
+    letter-spacing: 0.2px;
+    text-align: justify;
+}
+
+nav > a{
+    text-align: right;
+    text-decoration: none;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    text-transform: 800;
+}
+
+nav{
+    padding: 10px;
+}
+
+main{
+    background-color: white;
+    width: 80%;
+    margin: 0px auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.201);
+}
+
+section > h3{
+    text-align: left;
+}
+
+section{
+    text-align: center;
+}
+
+section > h2{
+    padding: 20px 20px 1px 20px;
+    color: #04441f;
+}
+
+section > h3{
+    background: linear-gradient(to right, #84E1AD, #92e2b5, #a7d4ba, #ffffff );
+    width: 95%;
+    margin: auto;
+    padding: 10px;
+    color: #1A5C38;
+}
+
+article{
+    width: 95%;
+    margin: auto;
+    background-color: #92e2b5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+h4{
+    color: white;
+    padding: 15px;
+    background-color: #36C174;
+    border-radius: 10px 10px 0px 0px;
+    
+}
+
+ul{
+    display: inline-block;
+    margin-right: 190px;
+    text-align: left;
+    list-style-image: url(./pacote-projeto-d010/imagens/20x20right.png);
+}
+
+li > a{
+    text-decoration: none;
+    color: #1F6D41;
+}
+
+article > p{
+    padding: 0px 5px 20px 10px
+}
+
+aside{
+    padding-bottom: 30px;
+}
+
+footer{
+    background-color: #1A5C38;
+}
+
+footer > p{
+    text-align: center;
+    color: white;
+    padding: 5px;
+    margin-bottom: 0;
+}
+
+.link-content{
+    text-decoration: none;
+    color: #0bb968;
+}
