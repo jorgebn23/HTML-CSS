@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mesclagem de Tabelas</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        h1{
+            margin: 10px;
+        }
+
+        table{
+            border-collapse: collapse;
+            color: black;
+            width: 40vw;
+        }
+        
+        td{
+            border: 1px solid black;
+            padding: 5px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Mesclagem de tabelas</h1>
+
+    <table>
+        <tr>
+            <td>A</td>
+            <td>B</td>
+        </tr>
+        <tr>
+            <td>C</td>
+            <td rowspan="2">D</td>
+        </tr>
+        <tr>
+            <td>E</td>
+        </tr>
+    </table>
+</body>
+</html>
