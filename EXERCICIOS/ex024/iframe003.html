@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso do iframes</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe#tela{
+            width: 95vw;
+            height: 400px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1 NAME>Faça uam escolha</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et soluta recusandae, aperiam maxime voluptate repellendus sunt laboriosam dolore amet suscipit ducimus reiciendis quo fugit esse, libero fuga iste at autem facere itaque voluptates nemo vel. Minima aperiam dolore harum neque magni reprehenderit saepe labore aliquid, quo veritatis praesentium molestias fugiat fuga in exercitationem impedit modi dolor totam quis! Eveniet vel amet rerum, inventore, harum nostrum eos modi quam sit sed libero, impedit itaque distinctio error ipsa illum incidunt? Ratione, similique maxime? Voluptates, eius earum. Ducimus facere aperiam nisi. Nesciunt debitis dolore enim, ratione nobis nihil similique et quia cumque repellat.</p>
+
+
+
+    <ul>
+        <li><a href="./paginas-extras/pag001.html" target="frame">Primeira página</a></li>
+
+        <!--Basicamente utilizei o target (alvo), com o nome que especifiquei dentro do <iframe>.-->
+
+
+        <li><a href="./paginas-extras/pag002.html" target="frame">Segunda página</a></li>
+        <li><a href="./paginas-extras/pag003.html" target="frame">Terceira página</a></li>
+        <li><a href="./paginas-extras/pag005.html" target="frame" referrerpolicy="no-referrer">pagina cinco</a></li>
+    </ul>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et soluta recusandae, aperiam maxime voluptate repellendus sunt laboriosam dolore amet suscipit ducimus reiciendis quo fugit esse, libero fuga iste at autem facere itaque voluptates nemo vel. Minima aperiam dolore harum neque magni reprehenderit saepe labore aliquid, quo</p> veritatis praesentium molestias fugiat fuga in exercitationem impedit 
+    
+    
+    
+    
+    <iframe srcdoc="<h1>Escolha uma das opçoes acima</h1><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et soluta recusandae, aperiam maxime voluptate repellendus sunt laboriosam dolore amet suscipit ducimus reiciendis quo fugit esse, libero fuga iste at autem facere itaque voluptates nemo vel. Minima aperiam dolore harum neque magni reprehenderit saepe labore aliquid, quo</p> <img src='./paginas-extras/image-1.jpg'>" id="tela" name="frame">
+    <p>Infelizmente seu navegador não é compativel com isso.</p>
+    </iframe>
+    
+    <!--Dei um atributo a tag <iframe> denominada "name", com o nome frame. Esse atributo serve para especificar o nome da TAG.-->
+
+    <!--Outra dica do professor guanabara é basicamente no "src" dentro do <iframe>, trocar por "srcdoc", uma vez, que esse atributo de src permite colocar arquivos html, ou seja <h1>, <p>, <img>.-->
+    
+    
+    <p>modi dolor totam quis! Eveniet vel amet rerum, inventore, harum nostrum eos modi quam sit sed libero, impedit itaque distinctio error ipsa illum incidunt? Ratione, similique maxime? Voluptates, eius earum. Ducimus facere aperiam nisi. Nesciunt debitis dolore enim, ratione nobis nihil similique et quia cumque repellat.</p>
+
+    
+</body>
+</html>

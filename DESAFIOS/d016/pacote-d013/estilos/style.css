@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*reset*/
+
+
+html, body{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+
+
+/*Outro reset, para página ocupar 100% de todo html*/
+
+
+body{
+    background: url(../imagens/fundo-madeira.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+
+/*Colocado o fundo de mandeira, configurado para cobrir e ficar fixo n olugar*/
+
+
+main{
+    height: 100vh;
+    position: relative;
+}
+
+
+/*Ocupar 100viewport height do body, position relative para poder centralizar o celular no meio*/
+
+
+
+section#telefone{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    height: 627px;
+    width: 311px;
+    background: url(../imagens/frame-iphone.png) no-repeat
+}
+
+/*Posicionado como absoluto, top e left 50%, transform: translate para centralizar, height e width para encaixar na carcaça do celular, e background: url para colocar a carcaça no fundo.*/
+
+iframe#home{
+   position: relative;
+   top: 79px;
+   left: 22px;
+   
+    height: 473px;
+    width: 268px;
+}
+
+
+/*Apenas comandos para centralizar o fundo-home na carcaça do celular.*/
+
+
+section#redes-sociais{
+    text-align: right;
+}
+
+/*Alinhar os icones a direta*/
+
+
+
+section#redes-sociais img{
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.404);
+}
+
+
+/*Configurações para costumizar os ícones*/
+
+
+section#redes-sociais img:hover{
+    border: 2px solid rgba(255, 255, 255, 0.603);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.623);
+    transition: transform .3s, border 1s;
+}
+
+
+/*Utilizado transform: translate para dar sensação de profundida. Além disso foi usado o transition transform .3, e border 1s.*/
